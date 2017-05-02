@@ -117,6 +117,8 @@ static double back_pass()
 static void unfold_input(double input[28][28], double unfolded[24*24][5*5])
 {
 	int a = 0;
+	(void)unfold_input;
+
 	for (int i = 0; i < 2; ++i)
 		for (int j = 0; j < 2; ++j) {
 			int b = 0;
